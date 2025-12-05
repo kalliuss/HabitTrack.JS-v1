@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang=tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabitTrack.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <header class="app-header">
+            <div>
+                <h1>HabitTrack.JS</h1>
+                <p class="subtitle">Günlük alışkanlık takip uygulaması</p>
+            </div>
+
+            <div class="header-right">
+                <div class="today" id="today"></div>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Tema değiştir">
+                    ☀️
+                </button>
+            </div>
+        </header>
+
+
+
+        <main>
+            <!-- yeni alışkanlık ekleme alanı -->
+
+            <section class="add-habit">
+                <h2>Yeni alışkanlık ekle</h2>
+                <form id="habit-form">
+                    <input type="text" id="habit-name" placeholder="Örn: Günde 30 dk JS" autocomplete="off" required />
+                    <button type="submit">Ekle</button>
+                </form>
+            </section>
+
+            <!-- alışkanlık kartların listeleneceği alan -->
+            <section class="habit-list-section">
+                <h2>Alışkanlıklar</h2>
+                <div id="habit-list" class="habit-list">
+                    <!-- JS ile kartlar buraya eklenecek -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
