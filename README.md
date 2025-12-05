@@ -30,7 +30,6 @@ This project was built as part of my JavaScript learning journey with assistance
 
 ---
 
-## Coming soon v2...
 
 
 <img width="1920" height="915" alt="image" src="https://github.com/user-attachments/assets/a0404567-496c-498c-82d3-deb3ab434b3d" />
